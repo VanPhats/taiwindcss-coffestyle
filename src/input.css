@@ -27,5 +27,8 @@
     @apply w-9 h-px bg-gray-800;
 }
 .ct-sbuheadline-label{
-    @apply mx-4 text-gray-500 tracking-widest text-center;
+    @apply mx-4 text-gray-500 tracking-widest text-xs;
 }
+.ct-button{
+    @apply text-center uppercase font-medium px-7 py-4 cursor-pointer tracking-widest hover:bg-opacity-90;
+} 
